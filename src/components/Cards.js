@@ -10,14 +10,20 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
+              src="images/img-4.jpg"
+              text="Haluk Bayraktar MERGEN'i ziyaret etti."
+              label="Adventure"
+              path="/products"
+            />
+            <CardItem
               src="images/img-9.jpg"
-              text="Adipisicing ullam eveniet mollitia optio aliquam Possimus"
+              text="MERGEN Teknofest 2020'de finale kaldı."
               label="Adventure"
               path="/services"
             />
             <CardItem
               src="images/img-2.jpg"
-              text="Adipisicing ullam eveniet mollitia optio aliquam Possimus"
+              text="MERGEN semalarda..."
               label="Luxury"
               path="/services"
             />
@@ -25,19 +31,13 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/img-3.jpg"
-              text="Travel through the Islands of Bali in a Private Cruise"
+              text="MERGEN v1"
               label="Mystery"
               path="/services"
             />
             <CardItem
-              src="images/img-4.jpg"
-              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
-              label="Adventure"
-              path="/products"
-            />
-            <CardItem
               src="images/img-8.jpg"
-              text="Experience Football on Top of the Himilayan Mountains"
+              text="MERGEN gökyüzünde süzülüyor..."
               label="Adrenaline"
               path="/sign-up"
             />
